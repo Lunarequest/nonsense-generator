@@ -22,7 +22,7 @@ fn main() {
     // help: maybe it is overwritten before being read?
     //
     // If you know how to fix this, please create a branch on the GitHub repo with the fix.
-    let mut indefinite_article: &str = "";
+    let indefinite_article: &str;
 
     if second_noun.split_at(1).0 == "a"
         || second_noun.split_at(1).0 == "e"

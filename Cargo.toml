@@ -5,7 +5,6 @@ authors = ["Rachael Ava"]
 edition = "2021"
 description = "A silly program written in Rust to output nonsensical sentences in the command line interface."
 license = "MIT"
-license-file = "LICENSE"
 keywords = ["nonsense", "generator", "novelty", "funny"]
 categories = ["command-line-utilities"]
 
